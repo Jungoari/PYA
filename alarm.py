@@ -25,6 +25,7 @@ class alarm:
 
 					#alarm ring
 					#TODO: alarmring.py
+					print('ALARMRING')
 
 	alarmthread = threading.Thread(target=waitloop)
 
