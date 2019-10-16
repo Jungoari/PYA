@@ -1,15 +1,12 @@
 import os
-import time
+import datetime
 import alarm_command
 
 __commands__ = ['create', 'delete', 'edit', 'list', 'sleepmode'] #커맨드 모음
 __alarms__ = [] #전체 알람 저장소
-__
 
 
 
-def now():
-	return time.ctime()
 
 def main_shell():
 	while True:
